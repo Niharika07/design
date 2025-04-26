@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    justify-content: space-between; /* Distribute space between child elements */
+    align-items: center; /* Align items vertically */
+    padding: 16px; /* Add padding for spacing */
+    background-color: #252525;
+    padding: 32px;
+    border-top: 1px solid rgba(255,255,255, 0.1);
+    align-items: center;
+
+    h4 {
+        margin: 0;
+        color: white;
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    img {
+        filter: invert(1);
+    }
+
+    .socials{
+    display: flex;
+    gap: 16px; /* Add spacing between social icons */
+    }
+}
