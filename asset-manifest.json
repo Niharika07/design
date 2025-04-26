@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/design-with-nikki/static/css/main.9528a178.css",
-    "main.js": "/design-with-nikki/static/js/main.c577c325.js",
+    "main.js": "/design-with-nikki/static/js/main.ae58d132.js",
     "static/media/me.jpg": "/design-with-nikki/static/media/me.545ebb3c845663178128.jpg",
     "static/media/Persona.png": "/design-with-nikki/static/media/Persona.0c3e3b0178387d51a23e.png",
     "static/media/MapA.jpg": "/design-with-nikki/static/media/MapA.72aad3fca13f999050f9.jpg",
@@ -51,10 +51,10 @@
     "static/media/slick.woff": "/design-with-nikki/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/design-with-nikki/index.html",
     "main.9528a178.css.map": "/design-with-nikki/static/css/main.9528a178.css.map",
-    "main.c577c325.js.map": "/design-with-nikki/static/js/main.c577c325.js.map"
+    "main.ae58d132.js.map": "/design-with-nikki/static/js/main.ae58d132.js.map"
   },
   "entrypoints": [
     "static/css/main.9528a178.css",
-    "static/js/main.c577c325.js"
+    "static/js/main.ae58d132.js"
   ]
 }
