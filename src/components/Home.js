@@ -12,7 +12,7 @@ const PROJECT_LIST = [
       company: ['Questrade', '2025'],
       image: CreditHeader,
       desc: "Designing a seamless credit card experience for investment-conscious Canadians that integrates spending and investing, making wealth growth effortless.",
-      link: 'design-with-nikki/questrade',
+      link: '/design-with-nikki/questrade',
       status: 'Shipped',
     },
     {
@@ -20,7 +20,7 @@ const PROJECT_LIST = [
       company: ['Zolo', '2024'],
       image: ZoloHeader,
       desc: 'Improving  Zolo’s real estate search impacting 10M+ users by redesigning the homepage and optimizing map features to better meet the diverse needs of homebuyers.',
-      link: 'design-with-nikki/map',
+      link: '/design-with-nikki/map',
       status: 'Shipped',
     },
 
@@ -29,7 +29,7 @@ const PROJECT_LIST = [
       company: ['Case study', '2023'],
       image: health,
       desc: 'Assisting international students in accessing  healthcare services and navigating health insurance plans',
-      link: 'design-with-nikki/healthcare',
+      link: '/design-with-nikki/healthcare',
       status: 'Shipped',
     },
     
@@ -38,7 +38,7 @@ const PROJECT_LIST = [
         company: ['Case study', '2022'],
         image: GroupfinderHearo,
         desc: 'Designing a feature for UofT’s LMS that lets students share details about their academic interests and work habits, making it easier to find compatible peers.',
-        link: 'design-with-nikki/groupfinder',
+        link: '/design-with-nikki/groupfinder',
         status: 'locked',
       },
       
