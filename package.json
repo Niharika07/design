@@ -1,8 +1,8 @@
 {
-  "name": "design-with-nikki",
+  "name": "design",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Niharika07.github.io/design-with-nikki",
+  "homepage": "https://Niharika07.github.io/design",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

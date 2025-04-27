@@ -9,7 +9,7 @@ function Questrade() {
 
     return (
         <div className='password-page'>
-            <a href="/design-with-nikki" className='back-button'><IoArrowBackOutline/></a>
+            <a href="/design" className='back-button'><IoArrowBackOutline/></a>
             <div className='contents'>
                 <div className='lock'><FaLock/></div>
                 <div><h1>Password please!</h1>
