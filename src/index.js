@@ -7,7 +7,6 @@ import { BrowserRouter, Link } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
      <BrowserRouter basename='/design-with-nikki'>
-     <Link to="/map"/>
     <App />
     </BrowserRouter>
   </React.StrictMode>,
