@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/design/static/css/main.5b979074.css",
-    "main.js": "/design/static/js/main.9b45f8c5.js",
+    "main.css": "/design/static/css/main.ec5c0b1d.css",
+    "main.js": "/design/static/js/main.08c620fc.js",
     "static/media/me.jpg": "/design/static/media/me.545ebb3c845663178128.jpg",
-    "static/media/CreditHeader.png": "/design/static/media/CreditHeader.e8b1d0e50cf4bb9403bc.png",
     "static/media/Persona.png": "/design/static/media/Persona.0c3e3b0178387d51a23e.png",
     "static/media/MapA.jpg": "/design/static/media/MapA.72aad3fca13f999050f9.jpg",
     "static/media/Comp6.png": "/design/static/media/Comp6.5724fb27dd47162f8319.png",
     "static/media/sync.png": "/design/static/media/sync.d0a46dd3696195bd545b.png",
     "static/media/ListingA.jpg": "/design/static/media/ListingA.cb7c05454d74e02bac85.jpg",
-    "static/media/health.png": "/design/static/media/health.1d6307360acb08a7923a.png",
+    "static/media/health.png": "/design/static/media/health.0da006258e47ba3aae30.png",
     "static/media/HomepageA.jpg": "/design/static/media/HomepageA.e533dea3e36d04abb9ba.jpg",
-    "static/media/ZoloHeader.png": "/design/static/media/ZoloHeader.d47f4e68791ec06f51e4.png",
+    "static/media/ZoloHeader.png": "/design/static/media/ZoloHeader.de18a0c89aa7f6b92ff2.png",
+    "static/media/BomHeader.png": "/design/static/media/BomHeader.6f62ca19b4053a75bc70.png",
     "static/media/v1.jpg": "/design/static/media/v1.9e7027fb30fd2b8534d9.jpg",
+    "static/media/old.png": "/design/static/media/old.bab01a3057bed5e045ef.png",
     "static/media/final.png": "/design/static/media/final.567cf062d2e4bbd0790c.png",
     "static/media/Comp5.png": "/design/static/media/Comp5.2c623f32e29efc90b76a.png",
     "static/media/mid.png": "/design/static/media/mid.fa85b28239c8c26f2442.png",
+    "static/media/HealthHeader.png": "/design/static/media/HealthHeader.0cdf7c367daeeaf4a43e.png",
     "static/media/Comp11.png": "/design/static/media/Comp11.e99ed6a5ff36dd90509d.png",
     "static/media/v2.jpg": "/design/static/media/v2.95f5d34d8abef3a53af6.jpg",
     "static/media/Comp8.png": "/design/static/media/Comp8.8afb0d4f49a4f7bc0703.png",
@@ -36,12 +38,17 @@
     "static/media/GroupfinderHero.png": "/design/static/media/GroupfinderHero.482cd09addddb68dc1ff.png",
     "static/media/Feature4.png": "/design/static/media/Feature4.9cabd82eebdc58fb7186.png",
     "static/media/Comp4.png": "/design/static/media/Comp4.dd269752ff402cc1ce49.png",
+    "static/media/GroupHeader.png": "/design/static/media/GroupHeader.9b296788b9869688f02b.png",
     "static/media/Feature2.png": "/design/static/media/Feature2.a7b8a5df25a79e48ced1.png",
     "static/media/p1.png": "/design/static/media/p1.469dde5d4798948a2f8d.png",
     "static/media/journey.png": "/design/static/media/journey.9eb608f704e6b3348300.png",
     "static/media/Feature3.png": "/design/static/media/Feature3.8dcfcffa1e0ae89b611b.png",
     "static/media/Sol3.png": "/design/static/media/Sol3.e35be3a0c0c64e5ad7bc.png",
     "static/media/Comp1.png": "/design/static/media/Comp1.a9680c329201d5b3768c.png",
+    "static/media/goals.png": "/design/static/media/goals.a4ebd28e2f16f8623aef.png",
+    "static/media/CreditHeader.png": "/design/static/media/CreditHeader.c559704f2118d5f536da.png",
+    "static/media/reqt.png": "/design/static/media/reqt.4f4da9ce0eccb32b4a4a.png",
+    "static/media/SetHeader.png": "/design/static/media/SetHeader.46cdae5faa2f342f6419.png",
     "static/media/Comp3.png": "/design/static/media/Comp3.27a58bb269defe6631a6.png",
     "static/media/Comp7.png": "/design/static/media/Comp7.99458651cbb94625d055.png",
     "static/media/Comp10.png": "/design/static/media/Comp10.2902c26a7873ad9f8a37.png",
@@ -50,11 +57,11 @@
     "static/media/slick.ttf": "/design/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/design/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/design/index.html",
-    "main.5b979074.css.map": "/design/static/css/main.5b979074.css.map",
-    "main.9b45f8c5.js.map": "/design/static/js/main.9b45f8c5.js.map"
+    "main.ec5c0b1d.css.map": "/design/static/css/main.ec5c0b1d.css.map",
+    "main.08c620fc.js.map": "/design/static/js/main.08c620fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b979074.css",
-    "static/js/main.9b45f8c5.js"
+    "static/css/main.ec5c0b1d.css",
+    "static/js/main.08c620fc.js"
   ]
 }
