@@ -18,7 +18,6 @@ function Topnav() {
     }
 
     return (
-        // <Fade triggerOnce>
         <Navbar expand="lg" className="top-navbar" >
             
         
@@ -29,11 +28,10 @@ function Topnav() {
                         <Nav>
                         {work}
                         {about}
-                    <Nav.Link eventKey={2}href="https://drive.google.com/file/d/1mVYxRcPENV1wWb0abrJgY9xceakHVGCm/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
+                    <Nav.Link eventKey={2}href="https://drive.google.com/file/d/1T9Tnuu0oeNcK8m24z0hyEviBJ0dpEhaT/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>
-        // </Fade>
     );
 };
 

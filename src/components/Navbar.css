@@ -27,8 +27,9 @@
 }
 
 .top-navbar .navbar-nav {
-    align-items: right;
-    gap: 16px;
+    display: flex; /* Ensure the container is a flexbox */
+    align-items: center; /* Align items vertically (cross-axis) */
+    gap: 8px; /* Add space between the navigation elements */
 }
 
 .navbar-brand {

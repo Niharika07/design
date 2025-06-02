@@ -7,7 +7,9 @@ import About from './About.js';
 import Healthcare from './Healthcare.js';
 import Groupfinder from './Groupfinder';
 import Questarde from './Questrade';
+import Settings from './Settings';
 import Map from './Map';
+import Bom from './Bom';
 import { Routes, Route } from "react-router-dom";
 
 class App extends Component {
@@ -21,7 +23,9 @@ class App extends Component {
           <Route exact path="/healthcare" element={<Healthcare/>} />
           <Route exact path="/groupfinder" element={<Groupfinder/>} />
           <Route exact path="/questrade" element={<Questarde/>} />
+          <Route exact path="/settings" element={<Settings/>} />
           <Route exact path="/map" element={<Map/>} />
+          <Route exact path="/bom" element={<Bom/>} />
           <Route exact path="/" element={<Home />} />
       </Routes>
       <Footer />

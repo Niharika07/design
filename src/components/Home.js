@@ -1,10 +1,29 @@
 import React from "react"
 import './Home.css';
 import './Card.scss';
-import health from "../assets/health.png";
+import TextTransition, { presets } from 'react-text-transition';
+import { Fade } from "react-awesome-reveal";
+import HealthHeader from "../assets/HealthHeader.png";
 import ZoloHeader from "../assets/ZoloHeader.png";
 import CreditHeader from "../assets/CreditHeader.png";
-import GroupfinderHearo from "../assets/Groupfinder/GroupfinderHero.png";
+import BomHeader from "../assets/BomHeader.png"
+import GroupHeader from "../assets/GroupHeader.png";
+import SetHeader from "../assets/SetHeader.png";
+import { MdEmail } from "react-icons/md";
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
+
+const TEXTS = [
+  'Nice to e-meet you!',
+  'I am a lover of chai', 
+  'I value empathy & impact',
+  'I studied CS & UX Design', 
+  "I grew up in 9 states", 
+  "If it’s ABBA, it’s on repeat",
+  "Tacos are my love language",
+  "Backpacked 10 countries chasing Wi-Fi",
+  "Coded this site with React and caffeine",
+];
 
 const PROJECT_LIST = [
     {
@@ -23,11 +42,26 @@ const PROJECT_LIST = [
       link: '/design/map',
       status: 'Shipped',
     },
-
+    {
+      name: 'Enterprise Settings',
+      company: ['Questrade', '2024'],
+      image: SetHeader,
+      desc: 'Redesigning the Enterprise-wide settings experience at Questrade by aligning with multiple lines of businesses.',
+      link: '/design/settings',
+      status: 'Shipped',
+    },
+    {
+      name: 'My Maintenance',
+      company: ['Bombardier', '2023'],
+      image: BomHeader,
+      desc: 'Designing features to support aircraft engineers in monitoring aircraft’s real-time health and visualize historic information.',
+      link: '/design/bom',
+      status: 'Shipped',
+    },
     {
       name: 'UHealth+',
       company: ['Case study', '2023'],
-      image: health,
+      image: HealthHeader,
       desc: 'Assisting international students in accessing  healthcare services and navigating health insurance plans',
       link: '/design/healthcare',
       status: 'Shipped',
@@ -36,7 +70,7 @@ const PROJECT_LIST = [
     {
         name: 'Groupfinder',
         company: ['Case study', '2022'],
-        image: GroupfinderHearo,
+        image: GroupHeader,
         desc: 'Designing a feature for UofT’s LMS that lets students share details about their academic interests and work habits, making it easier to find compatible peers.',
         link: '/design/groupfinder',
         status: 'locked',
@@ -45,27 +79,63 @@ const PROJECT_LIST = [
   ]
 
   function Home() {
-  
+    const [index, setIndex] = React.useState(0);
+    React.useEffect(() => {
+      const intervalId = setInterval(
+        () => setIndex((index) => index + 1),
+        2000, // every 3 seconds
+      );
+      return () => clearTimeout(intervalId);
+    }, []);
   
     return (
       <div className="App">
         
-    <div className='root-container'>
-     <div className='home-header'>
-          <h1>Hello, I'm Niharika 👋
-          </h1>
+        <div className='jumbotron flex'>
+        <div className='left flex flex-1 flex-column'>
+          <Fade direction='up' triggerOnce cascade>
+
+            <div className='flex-1'>
+            
+              <div style={{ position: 'relative' }}>    
+                <h1>Hi friend, <span className="gradient-text">I'm Niharika 👋</span></h1>
+              </div>
+              <h2>
+                <TextTransition direction="down" springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
+              </h2>
+            </div>
+            <div className='job-section flex'>
+              <Fade direction='up' triggerOnce cascade className='flex-1'>
+              <div className='flex-1'>
+                <h3>Designed Across</h3>
+                <h4>Fintech and Aviation for 6+years</h4> 
+              </div>
+
+              <div className='flex-1'>
+                <h3>Let's Connect</h3>
+                <div className='flex socials'>
+            <Fade direction='up' triggerOnce cascade>
+                <a href="https://www.linkedin.com/in/niharika-sharma-0b5822b6/" rel="noreferrer" target='_blank'><BsLinkedin style={{ width: "32px", height: "32px", color: "#252525" }} alt="linkedin"/></a>
+                <a href="https://github.com/Niharika07" rel="noreferrer" target='_blank'><BsGithub style={{ width: "32px", height: "32px", color: "#252525"}} alt="mail"/></a>
+                <a href="mailto:niharika.sharma1596@gmail.com"><MdEmail style={{ width: "32px", height: "32px", color: "#252525" }} alt="mail"/></a>
+            </Fade>
+          </div>
+              </div>
+
+               
+             
+              
+              </Fade>
+            </div>
+
+          </Fade>
+
+        </div>
+     
       </div>
-      <div className='home-body'>
-        <h2>
-        A curious designer and developer exploring the nuances of human interactions and simplifying complex workflows. 
-        </h2>
-        </div>
-
-
-
-
-          {renderCards()}
-        </div>
+      <div className='root-container'>
+        {renderCards()}
+      </div>
   
       </div>
     );

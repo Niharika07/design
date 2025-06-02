@@ -3,7 +3,6 @@ import Template, { DarkBG, LightBG, HorHeader, VerSection } from './Template';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import ZoloHeader from "../assets/ZoloHeader.png";
-import Comp1 from "../assets/Zolo/Comp1.png";
 import Comp2 from "../assets/Zolo/Comp2.png";
 import Comp3 from "../assets/Zolo/Comp3.png";
 import Comp4 from "../assets/Zolo/Comp4.png";
@@ -61,9 +60,7 @@ function Map() {
                 body="We analyzed 15 competitors to understand market best practices and identify opportunities to create a differentiated experience. This included reviewing buyer flows—from location search to viewing listings and contacting realtors."/>
             <div className='container-1200'>
             <Slider {...carouselSettings} className="custom-carousel">
-                        <div>
-                            <img src={Comp1} alt="Feature 1" className="carousel-image" />
-                        </div>
+                       
                         <div>
                             <img src={Comp2} alt="Feature 2" className="carousel-image" />
                         </div>
@@ -272,7 +269,7 @@ function Map() {
 
                 <div className='span-1'></div>
                 <div className='span-3'>
-                    <h3>02 Time-on-Task Improvemen</h3>
+                    <h3>02 Time-on-Task Improvement</h3>
                     <p>Users completed location-based property searches 30% faster compared to the old design, indicating improved usability and navigation.</p>
                 </div>
 

@@ -4,7 +4,7 @@ import { IoArrowBackOutline } from "react-icons/io5";
 
 
 
-function Questrade() {
+function Bom() {
 
     return (
         <div className='password-page'>
@@ -22,4 +22,4 @@ function Questrade() {
     );
 };
 
-export default Questrade;
+export default Bom;

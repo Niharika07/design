@@ -1,3 +1,4 @@
+
 body {
     font-family: "Manrope", sans-serif;
     background-color: #F1F1EE;
@@ -21,17 +22,32 @@ body {
 
   .jumbotron {
     padding: 32px;
-    margin: 0px auto;
-    margin-top: 80px;
+    margin-bottom: 32px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
   
+  .jumbotron h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .gradient-text{
+    background: linear-gradient(-60deg, #CB0EF1, #0E69F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .jumbotron h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .jumbotron h3 {
     font-size: 24px;
-    padding-bottom: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 150%;
   }
   
@@ -47,16 +63,17 @@ body {
   .jumbotron h4 {
     font-size: 24px;
     line-height: 160%;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-weight: 600;
     color: var(--text-secondary);
   }
   
   .left {
-    padding: 48px 48px 48px 0;
+    
     position: relative;
-    grid-column: auto / span 2;
-    border-right: 1px solid var(--border);
+    grid-column: auto / span 4;
+   
   }
   
   .right {
@@ -75,6 +92,7 @@ body {
     overflow: hidden;
     position: relative;
     margin-bottom: 0px;
+    font-weight: 600;
   }
   
   .right h3:nth-last-of-type() {
@@ -83,6 +101,7 @@ body {
   
   .job-section {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   
@@ -98,14 +117,18 @@ body {
   }
   
   .socials {
-    margin-left: -8px;
     height: 48px;
     display: flex;
+    margin-top: 6px;
+    
   }
   
   .socials a {
     height: 48px;
     display: inline-block;
+    width: 48px;
+    margin-right: 16px;
+
   }
   
   @media screen and (max-width: 1370px) {
@@ -152,7 +175,7 @@ body {
   @media screen and (max-width: 991px) {
     .left {
         grid-column: auto / span 4;
-        padding: 48px 0px;
+        padding: 0px 0px;
         border: 0;
   
     }
@@ -206,6 +229,12 @@ body {
   
       .grad-blur-home {
         height: 30% !important;
+      }
+
+      .job-section {
+        display: flex; /* Ensure it's a flex container */
+        flex-direction: column; /* Stack the child elements vertically */
+        gap: 16px; /* Add spacing between the stacked elements */
       }
   
   }

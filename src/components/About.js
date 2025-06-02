@@ -29,7 +29,7 @@ function About() {
                         <div className='col-2-grid'>
                             <div>
                             <h3>Work mode</h3>
-                                <p>I'm a <b>UX Designer at Questrade</b> with previous design experiences in aviation, education, and fintech for users across North America, Asia, and Europe. I hold a Master’s in User Experience Design from the University of Toronto and a Bachelor’s in Computer Science.
+                                <p>I'm a <b>UX Designer at Questrade</b> with previous design experiences in Fintech and Aviation for users across North America, Asia, and Europe. I hold a Master’s in UX Design from the University of Toronto and a Bachelor’s in Computer Science.
 
                             </p>
                             </div>
@@ -49,32 +49,34 @@ function About() {
                
                 <div className='experience root-container col-12-grid'>
                 <div className='span-4 mt-64'>
-                    <h1>How do I stand out as a Designer?</h1>
+                    <h1>My design values</h1>
 
                 </div>
                 <div className='span-8 powers col-2-grid'>
                     <div>
                         <h3>Curiosity & Problem Framing</h3>
-                        <p>A professor once told me—it’s not about finding the right solution, but the right problem. Since then, I’ve focused on asking thoughtful questions, diving into context, and shaping real, meaningful design challenges. </p>
+                        <p>A professor once told me - <i>it’s not about finding the right solution, but the right problem</i>. Since then, I’ve focused on asking thoughtful questions, diving into context, and shaping real, meaningful design challenges. </p>
                     </div>
                     <div>
                         <h3>Initiative & Ownership </h3>
-                        <p>I love taking initiatives  in identifying gaps, proposing ideas, and moving projects forward. I care deeply about the outcome, and I show up with a sense of ownership—whether it's crafting flows or aligning with business goals. </p>
+                        <p>I love taking initiatives in identifying gaps, proposing ideas, and moving projects forward. I care deeply about the outcome, and I show up with a sense of ownership - whether it's crafting flows or aligning with business goals. </p>
                     </div>
                     <div>
                         <h3>Collaboration & Feedback Fluency</h3>
-                        <p>Design doesn’t happen in a vacuum—I thrive in cross-functional spaces, where feedback flows, ideas evolve, and diverse perspectives shape better design decisions.</p>
+                        <p>Design doesn’t happen in a vacuum - I thrive in cross-functional spaces, where feedback flows, ideas evolve, and diverse perspectives shape better design decisions.</p>
                     </div>
                     <div>
                         <h3>Design 🤝 development</h3>
-                        <p>With a background in frontend dev, I bring a builder’s mindset to the design table. I think in systems, edge cases, and feasibility—making sure designs aren’t just beautiful, but buildable.</p>
+                        <p>With a background in frontend dev, I bring a builder’s mindset to the design table. I think in systems, edge cases, and feasibility - making sure designs aren’t just beautiful, but buildable.</p>
                     </div>
                 </div>
             </div>
 
 
             <div className='experience root-container col-12-grid mt-64'>
-                <div className='span-4 exp-left'><h1>Experience</h1></div>
+                <div className='span-4 exp-left'>
+                    <h1>My Experience</h1>
+                </div>
                 <div className='span-8 exp-right mt-16'>
                     <div className='col-8-grid'>
                         <div className='span-2 date'><h3>2023—Now</h3></div>
