@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/design/static/css/main.436c4b1b.css",
-    "main.js": "/design/static/js/main.e9f5dda7.js",
+    "main.js": "/design/static/js/main.4dc0c88d.js",
     "static/media/me.jpg": "/design/static/media/me.545ebb3c845663178128.jpg",
     "static/media/prototype.mov": "/design/static/media/prototype.d4c1d362bd25dace5b1d.mov",
     "static/media/proto2.mov": "/design/static/media/proto2.dbac1747ae34388447c5.mov",
@@ -44,6 +44,7 @@
     "static/media/usage.png": "/design/static/media/usage.1d2eb43214f233483dbb.png",
     "static/media/QuestHeader.png": "/design/static/media/QuestHeader.6688703689a6abafcadb.png",
     "static/media/Feature1.png": "/design/static/media/Feature1.a0f28592b00c6cd1308e.png",
+    "static/media/error.png": "/design/static/media/error.d137fb6bd5b1a55246a2.png",
     "static/media/iterate.png": "/design/static/media/iterate.0f8d30ee451d158032f0.png",
     "static/media/Comp2.png": "/design/static/media/Comp2.c51a4f9f1a5d13453659.png",
     "static/media/GroupfinderHero.png": "/design/static/media/GroupfinderHero.482cd09addddb68dc1ff.png",
@@ -58,6 +59,7 @@
     "static/media/journey.png": "/design/static/media/journey.9eb608f704e6b3348300.png",
     "static/media/Feature3.png": "/design/static/media/Feature3.8dcfcffa1e0ae89b611b.png",
     "static/media/Sol3.png": "/design/static/media/Sol3.e35be3a0c0c64e5ad7bc.png",
+    "static/media/loading.png": "/design/static/media/loading.8e78145474d255d66fdc.png",
     "static/media/struct.png": "/design/static/media/struct.abe5c79a47800b39e793.png",
     "static/media/flow.png": "/design/static/media/flow.5cd4f33c5f4a8845937f.png",
     "static/media/CreditHeader.png": "/design/static/media/CreditHeader.c559704f2118d5f536da.png",
@@ -83,10 +85,10 @@
     "static/media/slick.woff": "/design/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/design/index.html",
     "main.436c4b1b.css.map": "/design/static/css/main.436c4b1b.css.map",
-    "main.e9f5dda7.js.map": "/design/static/js/main.e9f5dda7.js.map"
+    "main.4dc0c88d.js.map": "/design/static/js/main.4dc0c88d.js.map"
   },
   "entrypoints": [
     "static/css/main.436c4b1b.css",
-    "static/js/main.e9f5dda7.js"
+    "static/js/main.4dc0c88d.js"
   ]
 }
