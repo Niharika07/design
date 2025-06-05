@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/design/static/css/main.436c4b1b.css",
-    "main.js": "/design/static/js/main.e8186d99.js",
+    "main.js": "/design/static/js/main.e9f5dda7.js",
     "static/media/me.jpg": "/design/static/media/me.545ebb3c845663178128.jpg",
     "static/media/prototype.mov": "/design/static/media/prototype.d4c1d362bd25dace5b1d.mov",
     "static/media/proto2.mov": "/design/static/media/proto2.dbac1747ae34388447c5.mov",
@@ -70,23 +70,23 @@
     "static/media/SetHeader.png": "/design/static/media/SetHeader.46cdae5faa2f342f6419.png",
     "static/media/sol1.png": "/design/static/media/sol1.696132b8029d5fbe9b22.png",
     "static/media/issue1.png": "/design/static/media/issue1.e53bff0c1c5a4cb8240e.png",
-    "static/media/issue2.png": "/design/static/media/issue2.d6953977da65d846d61c.png",
+    "static/media/issue3.png": "/design/static/media/issue3.d6953977da65d846d61c.png",
     "static/media/Comp3.png": "/design/static/media/Comp3.27a58bb269defe6631a6.png",
     "static/media/Comp7.png": "/design/static/media/Comp7.99458651cbb94625d055.png",
-    "static/media/sol2.png": "/design/static/media/sol2.5997441a15cbd419ca41.png",
+    "static/media/sol3.png": "/design/static/media/sol3.5997441a15cbd419ca41.png",
     "static/media/Comp10.png": "/design/static/media/Comp10.2902c26a7873ad9f8a37.png",
-    "static/media/sol3.png": "/design/static/media/sol3.eebf87c2f7a73b55bebb.png",
-    "static/media/issue3.png": "/design/static/media/issue3.395390aad08c85996905.png",
+    "static/media/sol2.png": "/design/static/media/sol2.eebf87c2f7a73b55bebb.png",
+    "static/media/issue2.png": "/design/static/media/issue2.395390aad08c85996905.png",
     "static/media/slick.svg": "/design/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/design/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/design/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/design/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/design/index.html",
     "main.436c4b1b.css.map": "/design/static/css/main.436c4b1b.css.map",
-    "main.e8186d99.js.map": "/design/static/js/main.e8186d99.js.map"
+    "main.e9f5dda7.js.map": "/design/static/js/main.e9f5dda7.js.map"
   },
   "entrypoints": [
     "static/css/main.436c4b1b.css",
-    "static/js/main.e8186d99.js"
+    "static/js/main.e9f5dda7.js"
   ]
 }
