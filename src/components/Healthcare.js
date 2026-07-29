@@ -32,6 +32,7 @@ function Healthcare() {
                 problem="The current state of accessing information regarding international students health insurance plans places the burden of finding accurate healthcare information on international students with little to no guidance."
                 outcome="We collaborated with UofT’s Innovation Hub to investigate how can we make access to healthcare easier for international students"
                 role="UX designer"
+                resp="User interviews, Information Architecture, UI design, User testing"
                 time="Fall 2021"
                 team="5 designers"
             />

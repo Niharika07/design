@@ -5,7 +5,7 @@ function Template(props) {
 
     return (
         <div className={'case-study ' + props.className}>
-              <div className="cs-header" style={{ backgroundImage: `url(${props.headerImage})` }}>
+            <div className="cs-header" style={{ backgroundImage: `url(${props.headerImage})` }}>
                 <img src={props.headerImage} alt="Header" className="header-image" />
             </div>
 
@@ -16,25 +16,40 @@ function Template(props) {
                 </div>
                 <div className='span-3'>
                     <p className='blurb'>{props.blurb}</p>
-                    {props.problem &&
-                        <div className='col-2-grid span-7'>
 
-                            <div className='span-1'>
-                                <h3>Problem</h3>
-                                <p>{props.problem}</p>
-                            </div>
-                            <div className='span-1'>
-                                <h3>Outcome</h3>
-                                <p>{props.outcome}</p>
-                            </div>
+                    <div className='col-2-grid span-7'>
+
+                        <div className='span-1'>
+                            <h3>Problem</h3>
+                            <p>{props.problem}</p>
                         </div>
-                    }
+                        <div className='span-1'>
+                            <h3>Outcome</h3>
+                            <p>{props.outcome}</p>
+                        </div>
+                    </div>
+                    {(props.impactT1 || props.impactD1 || props.impactT2 || props.impactD2) && (
+                    <div className='col-2-grid span-7 impact-boxes'>
+                        <div className='span-1 impact-box'>
+                            <h2>{props.impactT1}</h2>
+                            <p>{props.impactD1}</p>
+                        </div>
+                        <div className='span-1 impact-box'>
+                            <h2>{props.impactT2}</h2>
+                            <p>{props.impactD2}</p>
+                        </div>
+                    </div>)}
+
                 </div>
                 <div className='tools span-1'>
 
                     <div>
                         <h3>Role</h3>
                         <p>{props.role}</p>
+                    </div>
+                    <div>
+                        <h3>Responsibilities</h3>
+                        <p>{props.resp}</p>
                     </div>
                     <div>
                         <h3>Timeline</h3>
@@ -60,7 +75,7 @@ function Template(props) {
 }
 
 export function DarkBG(props) {
-    return(
+    return (
         <div className='dark-bg' {...props}>
             {props.children}
         </div>
@@ -78,7 +93,7 @@ export function LightBG(props) {
 }
 
 export function ScrollMenu(props) {
-    return(
+    return (
         <div className="scroll-menu">
             {props.children}
         </div>
@@ -87,7 +102,7 @@ export function ScrollMenu(props) {
 }
 
 export function HorHeader(props) {
-    return(
+    return (
         <div className='container-1200 h-header'>
             <div className='case-section-title-cont col-2-grid mb-24'>
                 <div className='span-1 h-left-side'>
@@ -141,8 +156,8 @@ export function ScrollMenuItem(props) {
         }
     };
 
-    return(
-        <a 
+    return (
+        <a
             onClick={(e) => onPress(e)} href={props.href}>
             <div
                 data-to-scrollspy-id={props.id}

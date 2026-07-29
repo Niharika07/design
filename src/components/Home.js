@@ -27,10 +27,10 @@ const TEXTS = [
 
 const PROJECT_LIST = [
     {
-      name: 'Questrade credit card',
+      name: 'Questrade Credit Card App',
       company: ['Questrade', '2025'],
       image: CreditHeader,
-      desc: "Designing a seamless credit card experience for investment-conscious Canadians that integrates spending and investing, making wealth growth effortless.",
+      desc: "Designing a 0->1 credit card app that helps Canadians to track their spending, manage their card, and pay off balances with ease.",
       link: '/design/questrade',
       status: 'Shipped',
     },
@@ -38,7 +38,7 @@ const PROJECT_LIST = [
       name: 'Map View for Real Estate Search',
       company: ['Zolo', '2024'],
       image: ZoloHeader,
-      desc: 'Improving  Zolo’s real estate search impacting 10M+ users by redesigning the homepage and optimizing map features to better meet the diverse needs of homebuyers.',
+      desc: 'Improving  Zolo’s real estate search impacting 10M+ users by optimizing map features to better meet the diverse needs of homebuyers.',
       link: '/design/map',
       status: 'Shipped',
     },
@@ -108,23 +108,19 @@ const PROJECT_LIST = [
               <Fade direction='up' triggerOnce cascade className='flex-1'>
               <div className='flex-1'>
                 <h3>Designed Across</h3>
-                <h4>Fintech and Aviation for 6+years</h4> 
+                <h4>Fintech, Real-estate and Aviation for 4+ years</h4> 
               </div>
 
               <div className='flex-1'>
                 <h3>Let's Connect</h3>
                 <div className='flex socials'>
-            <Fade direction='up' triggerOnce cascade>
+          
                 <a href="https://www.linkedin.com/in/niharika-sharma-0b5822b6/" rel="noreferrer" target='_blank'><BsLinkedin style={{ width: "32px", height: "32px", color: "#252525" }} alt="linkedin"/></a>
                 <a href="https://github.com/Niharika07" rel="noreferrer" target='_blank'><BsGithub style={{ width: "32px", height: "32px", color: "#252525"}} alt="mail"/></a>
                 <a href="mailto:niharika.sharma1596@gmail.com"><MdEmail style={{ width: "32px", height: "32px", color: "#252525" }} alt="mail"/></a>
-            </Fade>
+         
           </div>
               </div>
-
-               
-             
-              
               </Fade>
             </div>
 
@@ -133,10 +129,11 @@ const PROJECT_LIST = [
         </div>
      
       </div>
+      <Fade direction="up" triggerOnce>
       <div className='root-container'>
         {renderCards()}
       </div>
-  
+  </Fade>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import './Template.scss';
 import Template, { DarkBG, LightBG, HorHeader, VerSection } from './Template';
+import { Fade } from "react-awesome-reveal";
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css'
 import SetHeader from "../assets/SetHeader.png";
@@ -16,18 +17,24 @@ function Settings() {
 
     return (
         <div className="case-study">
+            <Fade direction='up' triggerOnce cascade>
             <Template
                 headerImage={SetHeader}
                 className="proj-header"
                 title="Questrade Enterprise-wide Settings"
                 subtitle="Redesigning Questrade’s settings experience to unify global and product-specific controls for better clarity and scale."
                 blurb="The project was part of a broader initiative to enhance the customer portal used by thousands of users across Questrade’s Investing, Banking, and Mortgage platforms. It focused on redesigning the enterprise-level settings."
-                problem="The existing experience of enterpise-wide settings at Questrade suffered from aesthetic inconsistencies, confusing navigation, and fragmented organization between global and product-specific settings."
-                outcome="Improved discoverability, introduced modular navigation, and reduced friction for 3 core product areas."
+                problem="The existing experience of enterpise-wide settings at Questrade suffered from aesthetic inconsistencies, confusing navigation, and fragmented organization."
+                outcome="I improved discoverability by introducing modular navigation, and reducing friction for 3 core product areas."
                 role="Lead UX designer"
-                time="Nov 2023 - Mar 2024"
+                resp="Web design, Systems thinking, Product Strategy, UI design, Usability testing"
+                time="Aug 2023 - Dec 2023"
                 team="1 Content Strategist, 1 UI Designer, 2 Engineers, Engineering Lead, Product Manager, and UX Manager."
-            />
+                impactT1="↓ 30%"
+                impactD1="Drop in internal support tickets according to post-launch reports."
+                impactT2="↑ 22%"
+                impactD2="Increase in task completion rate for key settings actions."
+            /></Fade>
 
 <DarkBG id="Discovery and Context Building">
             <VerSection

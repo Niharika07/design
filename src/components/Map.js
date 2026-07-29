@@ -1,5 +1,6 @@
 import './Template.scss';
 import Template, { DarkBG, LightBG, HorHeader, VerSection } from './Template';
+import { Fade } from "react-awesome-reveal";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import ZoloHeader from "../assets/ZoloHeader.png";
@@ -40,24 +41,31 @@ function Map() {
 
     return (
         <div className="case-study">
+            <Fade direction='up' triggerOnce cascade>
         <Template
         headerImage={ZoloHeader}
         className="proj-header"
         title="Map View for Real Estate Search"
-        subtitle="Redesigning Zolo’s real estate search for 10M+ users to better support the diverse needs of homebuyers"
-        blurb="Following Questrade’s acquisition of Zolo—recognized as the Strategic Acquisition of the Year in 2023, I was one of the lead designers on the team. Zolo is one of Canada’s leading real estate platforms used by over 10M home shoppers to buy, sell, rent, and explore property insights. As one of the two lead designers, I was tasked with identifying experience gaps and elevating Zolo’s user experience through a research-driven, user-centric approach that aligned with the business goals."
-        problem="Zolo aimed to increase user engagement and make the homebuying experience more intuitive for its users. However, the existing experience lacked clarity, accessibility, and user-centered features—making it difficult for users to confidently navigate listings and take the next steps in their buying journey."
-        outcome="Optimized Zolo’s map view with key features to support users through their complex and often stressful homebuying journey. Improved accessibility, streamlined interactions, and aligned the experience with user behavior—enhancing real estate search for over 10M users across Canada."
-        role="UX designer"
-        time="Mar 2024 - Dec 2024"
-        team="2 UX Designers, 1 content designer, 1 Engineering lead, 1 researcher, 3 developers, 1 BSA"
+        subtitle="Redesigning Zolo’s real estate search for 10M+ users to support their diverse needs"
+        blurb="Zolo is one of Canada’s leading real estate platforms used by over 10M home shoppers to buy, sell, rent, and explore property insights. They had a clear objective - to increase user engagement and make the homebuying experience more intuitive for its users."
+        problem="The existing experience lacked clarity, accessibility, and user-centered features, making it difficult for users to confidently navigate listings and take the next steps in their buying journey."
+        outcome="As one of the lead designers, I was tasked with identifying experience gaps and elevating Zolo’s user experience through a research-driven, user-centric approach that aligned with the business goals."
+        role="Lead Product Designer"
+        resp="Responsive design, Systems thinking, UI design, Usability testing"
+        time="Jan 2024 - Aug 2024"
+        team="Content Designer, Engineering Lead, UX Researcher, Business Analyst and 3 Developers"
+        impactT1="↑ 20%"
+        impactD1="Boost in user engagement following the release of 'Save Search' for mobile users."
+        impactT2="↓ 30%"
+        impactD2="Reduction in location-based search time indicating improved usability and navigation."
+        
     />
-
+</Fade>
         <DarkBG id="Market Research">
             <HorHeader 
                 top="Market Research"
                 bottom="Understanding the Current Terrain"
-                body="We analyzed 15 competitors to understand market best practices and identify opportunities to create a differentiated experience. This included reviewing buyer flows—from location search to viewing listings and contacting realtors."/>
+                body="We analyzed 15 competitors to understand market best practices and identify opportunities to create a differentiated experience. This included reviewing buyer flows, from location search to viewing listings and contacting realtors."/>
             <div className='container-1200'>
             <Slider {...carouselSettings} className="custom-carousel">
                        
@@ -103,7 +111,7 @@ function Map() {
             <HorHeader 
                 top="Zolo Audit"
                 bottom="Identifying the existing gaps"
-                body="After the market research, we evaluated Zolo’s website and app experience through a user-first lens to uncover pain points, usability gaps, and opportunities for improvement—aimed at enhancing the overall experience and driving business impact."/>
+                body="After the market research, we evaluated Zolo’s website and app experience through a user-first lens to uncover pain points, usability gaps, and opportunities for improvement aimed at enhancing the overall experience and driving business impact."/>
             <div className='container-1200'>
                 <Zoom>
                     <img
@@ -180,9 +188,9 @@ function Map() {
             <HorHeader 
                 top="Pivotal moment"
                 bottom="Surfacing Accessibility Gaps"
-                body="While reviewing the first iteration of Map Optimizations, a feedback from a senior leader during a review session shed light on a deeper, overlooked accessibility issue. This moment became a turning point—highlighting the importance of inclusive design and sparking meaningful conversations with leadership to prioritize accessibility as a core design principle moving forward."/>
+                body="While reviewing the first iteration of Map Optimizations, a feedback from a senior leader during a review session shed light on a deeper, overlooked accessibility issue. This moment became a turning point, highlighting the importance of inclusive design and sparking meaningful conversations with leadership to prioritize accessibility as a core design principle moving forward."/>
             <div className='container-1200'>
-            <h2><i>"Honestly, half the time I can't tell if I'm looking at a listing or just another street—everything kinda blends together when you're color blind."</i></h2>
+            <h2><i>"Honestly, half the time I can't tell if I'm looking at a listing or just another street - everything kinda blends together when you're color blind."</i></h2>
             <h3>- Senior Leader</h3>
             </div>
         </DarkBG>
@@ -191,7 +199,7 @@ function Map() {
             <HorHeader 
                 top="Aligning with leadership"
                 bottom="Addressing Accessibility gaps"
-                body="Inspired by the leadership insight, I initiated a deeper audit of the map experience and uncovered more accessibility issues—like poor contrast and UI elements that distracted from key property details."/>
+                body="Inspired by the leadership insight, I initiated a deeper audit of the map experience and uncovered more accessibility issues, like poor contrast and UI elements that distracted from key property details."/>
             <div className='container-1200'>
                 <Zoom>
                     <img
@@ -224,7 +232,7 @@ function Map() {
             <HorHeader 
                 top="Final Designs"
                 bottom="Bringing it all together"
-                body="The final designs reflect a cohesive, accessible, and user-centered map experience—tailored to support homebuyers through every step of their search journey."/>
+                body="The final designs reflect a cohesive, accessible, and user-centered map experience tailored to support homebuyers through every step of their search journey."/>
             <div className='container-1200'>
                 <Zoom>
                     <img

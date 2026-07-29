@@ -22,6 +22,7 @@ function Groupfinder() {
                 problem="How might we improve student-to-student interaction in online learning environments, particularly within group projects, to foster better collaboration and communication despite existing barriers in LMS platforms?"
                 outcome="Designed a feature for UofT’s LMS that helps students share information about themselves that would help their peers gauge their compatibility, with respect to academic interests and work practices."
                 role="UX designer"
+                resp="User interviews, Information Architecture, UI design, User testing"
                 time="Fall 2021"
                 team="5 designers"
             />

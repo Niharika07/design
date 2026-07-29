@@ -2,10 +2,12 @@ import React from 'react';
 import './Template.scss';
 import './About.scss';
 import Me from "../assets/me.jpg";
+import { Fade } from "react-awesome-reveal";
 
 function About() {
     return (
         <div className="about"> 
+        <Fade direction='right' triggerOnce cascade>
          <div className='about-container'>
                 <div className='col-12-grid'>
                     <div className='span-4 about-big'>                
@@ -20,7 +22,7 @@ function About() {
                         <h1>Hello world,</h1>
                         <h1 className='title-2'>I'm Niharika</h1>
                         <p>/ni · haar · uhka/</p>
-                        <p>I’m a designer with a developer hat who geeks out over the messy, complex stuff. I thrive on uncovering the stories hidden in complex systems—crafting experiences that make the intricate feel intuitive and the overwhelming feel effortless.<br />
+                        <p>I’m a designer with a developer hat who geeks out over the messy, complex stuff. I thrive on uncovering the stories hidden in complex systems crafting experiences that make the intricate feel intuitive and the overwhelming feel effortless.<br />
                         </p>
 
                         </div>
@@ -79,28 +81,27 @@ function About() {
                 </div>
                 <div className='span-8 exp-right mt-16'>
                     <div className='col-8-grid'>
-                        <div className='span-2 date'><h3>2023—Now</h3></div>
+                        <div className='span-2 date'><h3>2023 - Now</h3></div>
                         <div className='span-6 info'>
                             <h3>Questrade</h3>
-                            <h3 className='mb-only-date'><span>UX Designer</span> <span className='mb-only'>· 2023—Now</span></h3>
-                            <p>Led end-to-end design workflows across multiple lines of business—including mortgages, enterprise tools, Zolo’s real estate platform, and most recently, credit cards. Over the course of 10+ projects, I collaborated with five+ cross-functional scrum teams, working closely with product managers, business analysts, engineering leads, and developers. I led the design efforts that not only improved usability and accessibility, but also aligned with broader business goals. </p>
+                            <h3 className='mb-only-date'><span>UX Designer</span> <span className='mb-only'>· 2023 - Now</span></h3>
+                            <p>Led end-to-end design workflows across multiple lines of business including mortgages, enterprise tools, Zolo’s real estate platform, and most recently, credit cards. Over the course of 10+ projects, I collaborated with five+ cross-functional scrum teams, working closely with product managers, business analysts, engineering leads, and developers. I led the design efforts that not only improved usability and accessibility, but also aligned with broader business goals. </p>
                         </div>
 
-                        <div className='span-2 date'><h3>2022—2023</h3></div>
+                        <div className='span-2 date'><h3>2022 - 2023</h3></div>
                         <div className='span-6 info'>
                             <h3>Bombardier</h3>
-                            <h3 className='mb-only-date'><span>UX Designer</span> <span className='mb-only'>· 2022—2023</span></h3>
+                            <h3 className='mb-only-date'><span>UX Designer</span> <span className='mb-only'>· 2022 - 2023</span></h3>
                             <p>Shipped 17+ features to help users monitor real-time aircraft health and visualize historical data. I established a dark-mode design system aligned with brand guidelines, adding 15+ components that boosted task completion by 35%. Worked closely with researchers, PMs, and engineers to tackle high-impact problem space. </p>
                         </div>
 
-                        <div className='span-2 date'><h3>2018—2021</h3></div>
+                        <div className='span-2 date'><h3>2018 - 2021</h3></div>
                         <div className='span-6 info'>
                             <h3>Infosys</h3>
-                            <h3 className='mb-only-date'><span>UX Engineer</span> <span className='mb-only'>· 2018—2021</span></h3>
+                            <h3 className='mb-only-date'><span>UX Engineer</span> <span className='mb-only'>· 2018 - 2021</span></h3>
 
-                            <p>Designed, developed, and shipped a platform-independent frontend app for managing digital access and identities. Through user research, stakeholder workshops, and UX evaluations, I shaped the future-state design strategy. Crafted wireframes, screen flows, and pixel-perfect visuals while automating the delivery process—improving time-to-market by 75%. Working in an Agile, cross-functional, and culturally diverse team, I also mentored frontend developers, championing a user-centered approach to solving complex problems.</p>
+                            <p>Designed, developed, and shipped a platform-independent frontend app for managing digital access and identities. Through user research, stakeholder workshops, and UX evaluations, I shaped the future-state design strategy. Crafted wireframes, screen flows, and pixel-perfect visuals while automating the delivery process improving time-to-market by 75%. Working in an Agile, cross-functional, and culturally diverse team, I also mentored frontend developers, championing a user-centered approach to solving complex problems.</p>
                         </div>
-
 
                     </div>
 
@@ -122,7 +123,7 @@ function About() {
                         <div>
                         <h3>Master of Information</h3>
                         <h3>University of Toronto</h3>
-                        <p>User experience design — 4.0 GPA</p>
+                        <p>User experience design - 4.0 GPA</p>
                         </div>
                     </div>
                     <div className='span-2 date'>
@@ -132,7 +133,7 @@ function About() {
                         <div>
                         <h3>Bachelor of Technology</h3>
                         <h3>SRM University</h3>
-                        <p>Computer Science — 3.7 GPA</p>
+                        <p>Computer Science - 3.7 GPA</p>
                         </div>
                     </div>
                 </div>
@@ -141,6 +142,7 @@ function About() {
             </div>
             
             </div>
+            </Fade>
             </div>
       
     );
